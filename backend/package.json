@@ -1,0 +1,33 @@
+{
+  "name": "backend",
+  "private": true,
+  "version": "1.0.0",
+  "description": "This project will guide you through the process of pre-rendering your Angular project using [Angular Universal](https://angular.io/guide/universal) and deploy it to a CDN with with [Netlify](https://www.netlify.com/?_ga=2.14078323.599079780.1612319207-1714706019.1588285059?utm_source=repo&utm_medium=au-pre-render-tzm&utm_campaign=devex)",
+  "main": "package.json",
+  "author": "Tara Z. Manicsic <tzmanics@gmail.com>",
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "sanity start",
+    "build": "sanity build"
+  },
+  "keywords": [
+    "sanity"
+  ],
+  "dependencies": {
+    "@sanity/base": "^2.3.6",
+    "@sanity/components": "^2.2.6",
+    "@sanity/core": "^2.3.3",
+    "@sanity/default-layout": "^2.3.6",
+    "@sanity/default-login": "^2.2.6",
+    "@sanity/desk-tool": "^2.3.6",
+    "@sanity/vision": "^2.2.6",
+    "prop-types": "^15.7",
+    "react": "^17.0",
+    "react-dom": "^17.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tzmanics/angular-sanity"
+  }
+}
