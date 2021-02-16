@@ -9,3 +9,12 @@
   margin: 50px;
   text-align: center;
 }
+
+.product-item {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 15px;
+  min-width: 350px;
+  width: 20%;
+}
