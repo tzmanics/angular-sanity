@@ -1,4 +1,4 @@
-✧٩(•́⌄•́๑) Angular + Sanity.io
+# ✧٩(•́⌄•́๑) Angular + Sanity.io
 
 This project:
 
