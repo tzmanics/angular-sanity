@@ -30,7 +30,7 @@ export default {
     },
     {
       name: "blurb",
-      title: "blurb",
+      title: "Blurb",
       type: "string",
     },
     {

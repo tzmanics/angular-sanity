@@ -1,6 +1,6 @@
 export default {
   name: "productVariant",
-  title: "Product variant",
+  title: "Product Variant",
   type: "object",
   fields: [
     {

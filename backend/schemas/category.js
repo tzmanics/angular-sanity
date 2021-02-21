@@ -14,7 +14,7 @@ export default {
       type: "slug",
       options: {
         source: "title",
-        macLength: 96,
+        maxLength: 96,
       },
     },
     {
@@ -24,7 +24,7 @@ export default {
     },
     {
       name: "parents",
-      title: "Parents categories",
+      title: "Parents",
       type: "array",
       of: [
         {
