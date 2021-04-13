@@ -10,7 +10,9 @@ describe('workspace-project App', () => {
 
   it('should display welcome message', async () => {
     await page.navigateTo();
-    expect(await page.getTitleText()).toEqual('angular-sanity app is running!');
+    expect(await page.getTitleText()).toEqual(
+      'serverless-stripe app is running!'
+    );
   });
 
   afterEach(async () => {

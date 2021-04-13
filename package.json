@@ -1,5 +1,5 @@
 {
-  "name": "angular-sanity",
+  "name": "serverless-stripe",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -8,10 +8,10 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "dev:ssr": "ng run angular-sanity:serve-ssr",
-    "serve:ssr": "node dist/angular-sanity/server/main.js",
-    "build:ssr": "ng build --prod && ng run angular-sanity:server:production",
-    "prerender": "ng run angular-sanity:prerender"
+    "dev:ssr": "ng run serverless-stripe:serve-ssr",
+    "serve:ssr": "node dist/serverless-stripe/server/main.js",
+    "build:ssr": "ng build --prod && ng run serverless-stripe:server:production",
+    "prerender": "ng run serverless-stripe:prerender"
   },
   "private": true,
   "dependencies": {
@@ -34,7 +34,7 @@
     "zone.js": "~0.10.2"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "~0.1100.4",
+    "@angular-devkit/build-angular": "^0.1100.7",
     "@angular/cli": "~11.0.4",
     "@angular/compiler-cli": "~11.0.4",
     "@nguniversal/builders": "^11.0.1",

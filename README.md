@@ -18,7 +18,7 @@ I explain that all in [this blog post](coming soon!).
 
 To skip all this you could also just click this button:
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=xhttps://github.com/tzmanics/angular-sanity&utm_source=blog&utm_medium=angular-sanity-tzm&utm_campaign=devex)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=xhttps://github.com/tzmanics/serverless-stripe&utm_source=blog&utm_medium=serverless-stripe-tzm&utm_campaign=devex)
 
 ### Local Setup
 
@@ -29,7 +29,7 @@ To skip all this you could also just click this button:
 
 **Angular + Netlify Parts**
 
-- click the 'Use this template' or clone locally with 'git clone https://github.com/tzmanics/angular-sanity`
+- click the 'Use this template' or clone locally with 'git clone https://github.com/tzmanics/serverless-stripe`
 - install with `npm i`
 - install the [Netlify CLI](https://hubs.ly/H0GZjQN0) globally `npm i netlify-cli -g`
 - run `netlify init` to connect to your Netlify account & `ntl open` to go to the project dashboard

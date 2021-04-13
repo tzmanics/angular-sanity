@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "angular-sanity": {
+    "serverless-stripe": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:application": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/angular-sanity/browser",
+            "outputPath": "dist/serverless-stripe/browser",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -60,18 +60,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "angular-sanity:build"
+            "browserTarget": "serverless-stripe:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "angular-sanity:build:production"
+              "browserTarget": "serverless-stripe:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "angular-sanity:build"
+            "browserTarget": "serverless-stripe:build"
           }
         },
         "test": {
@@ -102,18 +102,18 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "angular-sanity:serve"
+            "devServerTarget": "serverless-stripe:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "angular-sanity:serve:production"
+              "devServerTarget": "serverless-stripe:serve:production"
             }
           }
         },
         "server": {
           "builder": "@angular-devkit/build-angular:server",
           "options": {
-            "outputPath": "dist/angular-sanity/server",
+            "outputPath": "dist/serverless-stripe/server",
             "main": "server.ts",
             "tsConfig": "tsconfig.server.json"
           },
@@ -134,21 +134,21 @@
         "serve-ssr": {
           "builder": "@nguniversal/builders:ssr-dev-server",
           "options": {
-            "browserTarget": "angular-sanity:build",
-            "serverTarget": "angular-sanity:server"
+            "browserTarget": "serverless-stripe:build",
+            "serverTarget": "serverless-stripe:server"
           },
           "configurations": {
             "production": {
-              "browserTarget": "angular-sanity:build:production",
-              "serverTarget": "angular-sanity:server:production"
+              "browserTarget": "serverless-stripe:build:production",
+              "serverTarget": "serverless-stripe:server:production"
             }
           }
         },
         "prerender": {
           "builder": "@nguniversal/builders:prerender",
           "options": {
-            "browserTarget": "angular-sanity:build:production",
-            "serverTarget": "angular-sanity:server:production",
+            "browserTarget": "serverless-stripe:build:production",
+            "serverTarget": "serverless-stripe:server:production",
             "routes": ["/"]
           },
           "configurations": {
@@ -158,7 +158,7 @@
       }
     }
   },
-  "defaultProject": "angular-sanity",
+  "defaultProject": "serverless-stripe",
   "cli": {
     "analytics": "f33e8aef-82e4-48f9-97d1-73599e666adf"
   }
