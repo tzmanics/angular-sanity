@@ -18,7 +18,7 @@ I explain that all in [this blog post](coming soon!).
 
 To skip all this you could also just click this button:
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=xhttps://github.com/tzmanics/serverless-stripe&utm_source=blog&utm_medium=serverless-stripe-tzm&utm_campaign=devex)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/tzmanics/serverless-stripe&utm_source=blog&utm_medium=serverless-stripe-tzm&utm_campaign=devex)
 
 ### Local Setup
 
