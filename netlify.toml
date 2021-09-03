@@ -1,5 +1,5 @@
 [build]
-  command = "npm run prerender"
+  command = "ng build && ng run serverless-stripe:server:production"
   functions = "./functions"
   publish = "dist/serverless-stripe/browser"
 [dev]
